@@ -1,0 +1,159 @@
+/*@font-face styles*/
+
+@import url('https://fonts.googleapis.com/css?family=Lora|Open+Sans+Condensed:300|Playfair+Display|Poppins|Petit+Formal+Script|Raleway|Clicker+Script');
+
+/*html styles*/
+
+html {}
+
+/*body styles*/
+
+body {font-family: 'Playfair Display', serif;
+        padding: 1%;
+        font-size: 75%;}
+
+/*header and footer styles*/
+
+header {}
+
+footer {font-family: 'Playfair Display', serif;
+        font-size: 50%;
+        padding: 2%;
+        margin: 5%;
+        text-align: center;
+        clear: both;}
+
+/*nav styles*/
+
+nav {font-family: 'Playfair Display', serif;
+    font-size: 150%;}
+
+nav ul {list-style-type: none;
+        overflow: hidden;
+        background-color: white;
+        margin: auto;
+        padding: 0%;}
+
+nav li {width: 25%; 
+        float: left;}
+
+nav li a {display: block;
+        color: dimgrey;
+        text-transform: uppercase;
+        font-size: 85%;
+        text-align: center;
+        padding: 5%;
+        text-decoration: none;}
+
+li#CodingFeature {font-family: 'Petit Formal Script', cursive;}
+
+nav a:hover:not(.active) {background-color: white; color: lightpink; text-decoration: none;}
+
+/*heading styles*/
+
+h1 {font-family: 'Petit Formal Script', serif;
+    color: black;
+    text-align:center;
+    font-size: 100%;
+    padding: 0%;
+    margin: 0%;}
+
+h2 {font-family: 'Petit Formal Script', cursive;
+    color: black;
+    font-size: 200%;
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;}
+
+h3 {color:dimgrey;}
+
+h2.blogTitle {font-family: 'Playfair Display', serif;
+            color: black;
+            font-size: 200%;
+            padding: 1%;
+            margin: 1%;
+            text-align: center;
+            text-decoration: none;}
+
+h4 {padding-right: 4%;
+    padding-left: 5%;
+    padding-top: 2%;}
+
+p#sidebar {color:lightseagreen;
+            font-family: 'Playfair Display', sans-serif;
+            padding-top: 0%;}
+
+p#intro {padding-right: 4%;}
+
+p#Contact {font-family: 'Petit Formal Script', cursive;
+                font-size; 200px;
+                text-align: center;}
+
+/*list styles*/
+
+ul#formalGal {width: 100%}
+
+ol {}
+
+li
+    li:hover {text-decoration: none; color: lightpink;}
+        
+    li:visited {color: lightpink;}
+        
+    li:active {color: lightpink}
+    
+li a:hover:not(.active) {background-color: white; color: lightpink; text-decoration: none;}
+
+/*link styles*/
+
+a {text-decoration: none;
+    color: black;}
+
+a#home {text-decoration: none;
+        color:lightpink;}
+
+a:hover {text-decoration: none;}
+
+/*section, aside, and article styles*/
+
+section {}
+
+
+aside {}
+
+aside#sidebar {float:left;
+                width: 25%;
+                height: 100%;
+                padding: 2%;
+                position: relative;}
+article {}
+
+/*img styles*/
+
+img#profPic {padding-bottom: 10%; padding-top: 2%;}
+
+img#welcome {padding-top: 3%;}
+
+img#hi {padding-bottom:0%;}
+
+img#bio {padding-top: 0%;}
+
+img#resume {padding-right: 15%;
+            padding-left: 15%;
+            padding-top: 2%;}
+
+img#UBFit {padding-right: 15%;
+            padding-left: 15%;
+            padding-top: 2%;}
+
+img#Bateman {padding-right: 15%;
+            padding-left: 15%;
+            padding-top: 2%;}
+
+img#Social {padding-right: 8%;
+            padding-left: 6%;
+            padding-top: 2%;}
+
+
+/*nav styles*/
+
